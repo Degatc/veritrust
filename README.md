@@ -8,6 +8,22 @@
 pip install -r requirements.txt
 ```
 
+### Creation of environnement file
+
+Create a .env file with your authentication token and the database URL
+
+```
+#.env file
+# Twitter configuration
+TWITTER_BEARER_TOKEN="..."
+
+# Instagram configuration
+INSTAGRAM_BEARER_TOKEN="..."
+
+# BDD 
+DATABASE_URL="..."
+```
+
 ### Start verytrust back-end
 
 ```
